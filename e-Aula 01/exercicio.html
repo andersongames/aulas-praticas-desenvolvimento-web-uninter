@@ -1,0 +1,110 @@
+<!DOCTYPE html> <!--HTML5-->
+<html> <!--HTML-->
+<head> <!--HTML-->
+<title> HTML 5 e jQuery</title> <!--Mostra na barra de título do browser-->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script> <!--JQUERY-->
+<style>
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	main{
+		background-color:#ccc;
+		width:1200px;
+		margin: auto;
+		margin-top: 20px;
+		padding: 10px;
+	}
+	header{
+		background-color:#fff;
+		width:1200px;		
+		height: 80px;
+		color: blue;
+		text-align:center;
+		font-size: x-large;
+	}
+	nav{
+		background-color:#fff;
+		width:1180px;		
+		height: 30px;
+		margin-top: 10px;
+		font:"Times New Roman";
+		text-align: center;
+		font-size:larger;
+		padding: 10px;
+		font-weight:bold;
+	}
+	section{
+		background-color:#fff;
+		width:900px;		
+		height: 500px;
+		margin-top: 10px;
+		text-align:center;
+		float: left;
+	}
+	aside{
+		background-color:#fff;
+		width:270px;		
+		height: 480px;
+		margin-top: 10px;
+		float: left;
+		margin-left:10px;
+		margin-bottom:10px;
+		font-size: large;
+		padding:10px;
+		font-weight:bold;
+	}
+	footer{
+		background-color:#fff;
+		width:1200px;		
+		height: 60px;
+		clear: both;
+		text-align:center;
+	}
+	.verde{ 
+		color: green;
+		background-color: yellow;
+	}
+	#texto{
+		position:relative;
+	}
+</style>
+</head> <!--HTML-->
+<body> <!--HTML-->
+	<main>
+		<header> <h1>Super Lua </h1></header> <!--HTML5-->
+		<nav> <h2>Maior superlua do século pode ser observada nesta segunda-feira </h2> </nav> <!--HTML5-->
+		<article> <!--HTML5-->
+			<section>  <!--HTML5-->
+			<br/>
+			<figure><img src="http://www.gpsnoticias.com.br/wp-content/uploads/sites/5/2016/11/superlua.jpg" alt="Descrição da Figura" /></figure> <!--HTML5-->
+			</section> <!--HTML5-->
+		</article> <!--HTML5-->
+		<aside><br/><p id="texto">A segunda-feira pré-feriado de Proclamação da República (14.11) reserva uma bela “surpresa” aos amantes do universo. <br/>
+		A maior superlua dos últimos 70 anos poderá ser observada “a olho nú” por amantes dos astros ou mesmo por curiosos.</p></aside> <!--HTML5-->
+		<footer> <!--HTML5-->
+			<br/>&nbsp; <button id="titulo" style="font-weight:bold;">Muda a Cor do Título</button>
+			&nbsp; <button id="luasai" style="font-weight:bold;">Esconde a Lua</button>
+			&nbsp; <button id="luavolta" style="font-weight:bold;">Mostra a Lua</button>
+			&nbsp; <button id="anima" style="font-weight:bold;">Anima o Texto</button>
+		</footer> <!--HTML5-->
+	</main>
+	<!--JQUERY-->
+	<script> 
+	$(document).ready(function(){ 
+	    $("#titulo").click(function(){
+	        $("header").addClass("verde");
+	    });
+		$("#luasai").click(function(){
+	        $("figure").hide();
+	    });
+		$("#luavolta").click(function(){
+	        $("figure").fadeIn("slow");
+	    });
+		$("#anima").click(function(){
+	        $("#texto").animate({top: '120px'});
+	    });
+	});
+	</script>
+</body> <!--HTML-->
+</html> <!--HTML-->

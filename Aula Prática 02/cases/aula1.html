@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercícios - Aula 1</title>
+	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<script src="../assets/js/jquery.js"></script>
+	<script src="../assets/js/scripts.js"></script>
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+		  	<div class="navbar-header">
+				<a class="navbar-brand" href="#">Exercícios</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 1 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aula1.html">HTML</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="aula1.html#css">CSS</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 2 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aula2.html">jQuery</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="aula2.html#php">PHP</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 3 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aula3.html">HTML5 e XML</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="aula3.html#sws">Softwares e Frameworks</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a href="aula4.html">Avaliação Geral</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 main">
+				<h1 class="page-header">Exercícios - HTML</h1>
+				<div class="section">
+					<p>Olá, nestes exercícios iremos criar uma página web para a empresa <b class="text-primary">Doce e Dança</b>.</p>
+					<p>Essa empresa, uma confeitaria, procurou você como desenvolvedor web para criar um site.</p>
+					<p>O site será simples, institucional e terá um formulário para contato.</p>
+					<div class="panel panel-default">
+						<div class="panel-heading"><h4>Exercícios - HTML</h4></div>
+						<div class="panel-body">
+							<div id="ex1HTML" class="holdExercicio" data-idExercicioTexto="44">
+								<h5>Exercício 1</h5>
+								<p>Iremos começar o desenvolvimento do nosso site. Para tal, devemos, antes de mais nada, definir a estrutura básica da nossa página. De acordo com os conceitos vistos nos slides <u>6-12</u> em HTML, crie a estrutura básica do nosso site. O título da nossa página será: <b class="text-primary">Doce e Dança</b></p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2HTML" class="holdExercicio" data-idExercicioTexto="45">
+								<h5>Exercício 2</h5>
+								<p>Agora, precisamos criar o menu de navegação. Nosso site irá possuir as seguintes páginas:</p>
+								<p>Home, Receitas e Contato</p>
+								<p>Crie um menu, utilizando uma lista não-ordenada (conceito visto no slide <u>18</u> de HTML), com os links (slides <u>20-22</u> de HTML) apontando para tais páginas.</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3HTML" class="holdExercicio" data-idExercicioTexto="46">
+								<h5>Exercício 3</h5>
+								<p>A gerência da <b class="text-primary">Doce e Dança</b> nos pediu para colocarmos uma tabela de preços no site, com os preços dos principais bolos vendidos na confeitaria. A tabela deverá ser assim:</p>
+								<div class="row">
+									<div class="col-md-10 col-md-offset-1">
+										<img src="../assets/img/table.png" class="thumbnail img-responsive" />
+									</div>
+								</div>
+								<p>De acordo com o estudado nos slides <u>25-29</u> de HTML, construa a tabela mostrada acima.</p>
+								<textarea class="form-control" rows="40"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4HTML" class="holdExercicio" data-idExercicioTexto="47">
+								<h5>Exercício 4</h5>
+								<p>Estamos agora na página inicial do site da <b class="text-primary">Doce e Dança</b>, nosso contratante pediu para colocarmos um breve texto sobre a confeitaria.</p>
+								<p>Utilizando os conceitos aprendidos nos slides <u>14-17</u> nos slides de HTML, defina uma heading tag de segunda importância e o seguinte texto:</p>
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3">
+										<img src="../assets/img/text.png" class="thumbnail img-responsive" />
+									</div>
+								</div>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5HTML" class="holdExercicio" data-idExercicioTexto="48">
+								<h5>Exercício 5</h5>
+								<p>Agora, precisamos criar o formulário da página de contato do nosso site. Ele deverá conter 3 &lt;input&gt;s e 1 &lt;textarea&gt; - Nome, Telefone, Email e Mensagem, respectivamente.</p>
+								<p>Lembre-se de que o &lt;input&gt; não precisa ser fechado, e o &lt;textarea&gt; possui tag de fechamento.</p>
+								<p>O método de envio será <b><i>POST</i></b>, e a <i>action</i> do nosso formulário será <b><i>script.php</i></b>.</p>
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3">
+										<img src="../assets/img/form.png" class="thumbnail img-responsive" />
+									</div>
+								</div>
+								<p>De acordo com os conceitos apresentados nos slides <u>30-38</u> de HTML. Reproduza o &lt;form&gt; apresentado acima.
+								<p class="small">Utilize uma &lt;br /&gt; entre os inputs, para gerar o espaço. O atributo <i>placeholder gera o texto guia nos campos.</i></p>
+								<p class="small">O botão de enviar também será um &lt;input&gt;, do tipo <i>submit</i>.</p>
+								<textarea class="form-control" rows="12"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="css" class="section">
+					<div class="panel panel-default">
+						<div class="panel-heading"><h4>Exercícios - CSS</h4></div>
+						<div class="panel-body">
+							<div id="ex1CSS" class="holdExercicio" data-idExercicioTexto="49">
+								<h5>Exercício 1</h5>
+								<p>Agora, para continuarmos o desenvolvimento do site da <b class="text-primary">Doce e Dança</b>, precisamos aplicar formatação, pois, apenas com HTML, ele ficará "cru". Precisamos definir algumas propriedades que irão ser aplicadas para toda a página. Utilizando os conceitos dos slides <u>4-10</u> de CSS, declare a formatação com os seguintes atributos:</p>
+								<p class="small">A fonte será <i>Verdana</i> (fonte padrão para web), com tamanho de texto 16px e cor preta (#000).</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2CSS" class="holdExercicio" data-idExercicioTexto="50">
+								<h5>Exercício 2</h5>
+								<p>Também precisamos definir formatação para o menu - que criamos utilizando uma lista não-ordenada. Para ficar mais fácil a formatação, aplicamos a &lt;ul&gt; a classe <i>menu</i>. Relembrando o aprendido nos slides <u>4-10</u>, <u>17-25</u> e o conceito de <u>herança</u>, aplique a formatação aos elementos para que eles fiquem:</p>
+								<p class="small">A classe <i>menu</i> deverá ser disposta em blocos, mas seus filhos deverão ser dispostos em linha e para que fiquem um do lado do outro deverão flutuar a esquerda.</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3CSS" class="holdExercicio" data-idExercicioTexto="51">
+								<h5>Exercício 3</h5>
+								<p>Alguns pedaços dos textos do site possuem um destaque - estão em outra cor, diferente do restante do texto. Isso é utilizado para condicionar o leitor a guardar essas informações, colocando um peso visual nelas. Definimos que a classe utilizada nesses textos será <i>destaque</i> e para as heading tags será <i>titulo</i>. Elas deverão definir um texto em negrito e com a cor #337ab7 (um tom de azul em hexadecimal).</p>
+								<p>Ainda utilizando os conceitos vistos nos slides <u>4-10</u> de CSS, defina a classe e a formatação apropriada.</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4CSS" class="holdExercicio" data-idExercicioTexto="52">
+								<h5>Exercício 4</h5>
+								<p>A tabela de preços que criamos também deverá ser formatada. Ela deverá receber a formatação de 2 classes - <i>tabela</i> e <i>borda-tabela</i>, pois, há outras tabelas sem bordas no site.</p>
+								<p>Para a classe <i>tabela</i>, devemos definir que ela ocupará sempre o tamanho total do seu parent. A classe <i>borda-tabela</i> definírá a borda da tabela, que será sólida, com 1px de largura e com a cor #ccc (tom de cinza em hexadecimal).</p>
+								<p>Utilizando os conceitos dos slides <u>4-10</u> de CSS, defina as duas classes apresentadas.</p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5CSS" class="holdExercicio"  data-idExercicioTexto="53">
+								<h5>Exercício 5</h5>
+								<p>Em cada página do site que estamos desenvolvendo, o container que irá envolver o conteúdo será único - não irá se repetir. Portanto, podemos definir um ID para ele. A &lt;div&gt; que irá envolver o conteúdo será <i>#conteudo</i>. Ela terá as seguintes propriedades:</p>
+								<p>Padding de 10px, margem de baixo de 20px, uma borda sólida, de 1px e de cor #ccc no final, e um altura mínima de 30% em relação à página.</p>
+								<p>Aplicando os conceitos dos slides <u>4-10</u> de CSS, defina as propriedades ao ID definido.</p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex6CSS" class="holdExercicio"  data-idExercicioTexto="55">
+								<h5>Exercício 6</h5>
+								<p>Dentro da nossa &lt;div id="conteudo"&gt;, teremos vários parágrafos. Estes parágrafos terão fonte e cor diferente do resto da página. Esses parágrafos terão tamanho de fonte 14px e cor #4c4c4c (cinza escuro em hexadecimal). Ainda com o conceito dos slides <u>4-10</u> de CSS e o conceito de <u>herança</u>, aplique uma formatação CSS definindo essa exigência do nosso contratante.</p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex7CSS" class="holdExercicio" data-idExercicioTexto="56">
+								<h5>Exercício 7</h5>
+								<p>Na página de Receitas, além da descrição e tempo de preparo de cada receita, os gerentes da <b class="text-primary">Doce e Dança</b> pediram para que nós colocássemos fotos de cada receita. Mas, as fotos que eles nos enviaram não possuem tamanhos iguais - o que resulta em um layout feio apenas colocando as tags &lt;img&tg;.</p>
+								<p>Ainda utilizando o conceito de <u>herança</u> em CSS, defina que as imagens da &lt;div id="conteudo"&gt; possuam uma largura mínima de 40% e uma largura máxima de 80% em relação ao seu parent - definindo a largura de uma imagem, a altura será ajustada automaticamente.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex8CSS" class="holdExercicio" data-idExercicioTexto="57">
+								<h5>Exercício 8</h5>
+								<p>Considerando que a nossa &lt;div id="conteudo"&gt;, que possui uma altura mínima de 30%, após a inserção dos conteúdos, fique com o tamanho de 1400x500px.</p>
+								<p>Aplicando o conceito do <i>Box Model</i>, visto nos slides <u>14-16</u> de CSS, neste caso, qual é a real largura da nossa &lt;div id="conteudo"&gt;?</p>
+								<p class="small">Box Model = largura do conteúdo + largura do padding + largura da borda</p>
+								<textarea class="form-control" rows="2"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex9CSS" class="holdExercicio" data-idExercicioTexto="9">
+								<h5>Exercício 9</h5>
+								<p>Após criarmos nosso arquivo <i>estilo.css</i>, precisamos ligá-lo ao nosso HTML. Relembrando os conceitos dos slides <u>27-30</u> de CSS, qual é a tag que realiza essa ligação?</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex10CSS" class="holdExercicio" data-idExercicioTexto="54">
+								<h5>Exercício 10</h5>
+								<p>Após todas as modificações que realizamos no arquivo CSS, precisamos ligá-lo à nossa página para que a formatação seja aplicada. Utilizando os conceitos apresentados nos slides <u>27-30</u> de CSS, declare novamente a estrutura básica da nossa página, adicionando o ligamento do arquivo .css.</p>
+								<textarea class="form-control" rows="9"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,490 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercícios - HTML</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+		  	<div class="navbar-header">
+				<a class="navbar-brand" href="#">Exercícios</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 1 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="noLink">HTML</a></li>
+							<li><a href="html.html#section1">Nível Fácil</a></li>
+							<li><a href="html.html#section2">Nível Intermediário</a></li>
+							<li><a href="html.html#section3">Nível Avançado</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a class="noLink">CSS</a></li>
+							<li><a href="css.html#section1">Nível Fácil</a></li>
+							<li><a href="css.html#section2">Nível Intermediário</a></li>
+							<li><a href="css.html#section3">Nível Avançado</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 2 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="noLink">jQuery</a></li>
+							<li><a href="jquery.html#section1">Nível Fácil</a></li>
+							<li><a href="jquery.html#section2">Nível Intermediário</a></li>
+							<li><a href="jquery.html#section3">Nível Avançado</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a class="noLink">PHP</a></li>
+							<li><a href="php.html#section1">Nível Fácil</a></li>
+							<li><a href="php.html#section2">Nível Intermediário</a></li>
+							<li><a href="php.html#section3">Nível Avançado</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 3 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="noLink">HTML5 e XML</a></li>
+							<li><a href="html5.html#section1">Nível Fácil</a></li>
+							<li><a href="html5.html#section2">Nível Intermediário</a></li>
+							<li><a href="html5.html#section3">Nível Avançado</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a class="noLink">Softwares e Frameworks</a></li>
+							<li><a href="softwares.html#section1">Conceitos Básicos</a></li>
+							<li><a href="softwares.html#section2">Conceitos Específicos</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a href="avaliacao.html">Avaliação Final</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li><a href="#section1">Nível Fácil</a></li>
+					<li><a href="#section2">Nível Intermediário</a></li>
+					<li><a href="#section3">Nível Avançado</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				<h1 class="page-header">Exercícios - HTML</h1>
+				<div id="section1" class="section">
+					<div class="panel panel-default">
+						<div class="panel-heading"><h4>Exercícios HTML - Nível Fácil</h4></div>
+						<div class="panel-body">
+							<div id="ex1facil" class="holdExercicio" data-nameRadios="facil1" data-idExercicio="3">
+								<h5>Exercício 1</h5>
+								<p>Qual o significado do acrônimo "HTML"?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil1" value="0">
+										Hyper Time Markup Language
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil1" value="1">
+										High Text Markup Language
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil1" value="2">
+										High Tight Markup Language
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil1" value="3">
+										Hyper Text Markup Language
+									</label>
+								</div>
+								<button type="button" class="btn btn-default">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2facil" class="holdExercicio" data-nameRadios="facil2" data-idExercicio="1">
+								<h5>Exercício 2</h5>
+								<p>Qual a utilização do HTML?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil2" value="0">
+										Formatar textos
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil2" value="1">
+										Criar páginas web
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil2" value="2">
+										Formatar imagens
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil2" value="3">
+										Formatar listas
+									</label>
+								</div>
+								<button type="button" class="btn btn-default">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3facil" class="holdExercicio" data-nameRadios="facil3" data-idExercicio="3">
+								<h5>Exercício 3</h5>
+								<p>Podemos dizer que browsers são:</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil3" value="0">
+										Perigosos
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil3" value="1">
+										Lentos
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil3" value="2">
+										Leitores de obras-primas
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil3" value="3">
+										Leitores e interpretadores de HTML
+									</label>
+								</div>
+								<button type="button" class="btn btn-default">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4facil" class="holdExercicio" data-nameRadios="facil4" data-idExercicio="2">
+								<h5>Exercício 4</h5>
+								<p>Como devemos salvar os arquivos HTML?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil4" value="0">
+										nome do arquivo.css
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil4" value="1">
+										nome do arquivo.html
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil4" value="2">
+										nome_do_arquivo.html
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil4" value="3">
+										123.xml
+									</label>
+								</div>
+								<button type="button" class="btn btn-default">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5facil" class="holdExercicio" data-nameRadios="facil5" data-idExercicio="1">
+								<h5>Exercício 5</h5>
+								<p>O que são tags?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil5" value="0">
+										Etiquetas
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil5" value="1">
+										Marcações que definem onde começam e terminam os comandos HTML
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil5" value="2">
+										Marcadores que definem o preço
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="facil5" value="3">
+										Marcações que definem onde começam e terminam os comandos C++
+									</label>
+								</div>
+								<button type="button" class="btn btn-default">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex6facil" class="holdExercicio" data-idExercicioTexto="0" data-nameText="0">
+								<h5>Exercício 6</h5>
+								<p>Crie uma heading tag de alta importância com o seguinte texto - "Aprender HTML é muito bacana"</p>
+								<textarea class="form-control" rows="3"></textarea><br />
+								<button type="button" class="btn btnText btn-default">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+						</div>
+					</div>
+				</div>
+				<div id="section2" class="section">
+					<div class="panel panel-primary">
+						<div class="panel-heading"><h4>Exercícios HTML - Nível Intermediário</h4></div>
+						<div class="panel-body">
+							<div id="ex1medio" class="holdExercicio" data-idExercicioTexto="1" data-nameText="1">
+								<h5>Exercício 1</h5>
+								<p>Qual é a estrutura básica de um arquivo HTML?</p>
+								<p class="small">digite a estrutura básica</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-primary">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2medio" class="holdExercicio" data-nameRadios="medio2" data-idExercicio="0">
+								<h5>Exercício 2</h5>
+								<p>O que são self-closing tags?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio2" value="0">
+										Tags HTML que abrem e fecham sozinhas
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio2" value="1">
+										Tags HTML que tiram selfies
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio2" value="2">
+										Etiquetas de auto-fechamento
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio2" value="3">
+										Tags HTML que não precisam ser fechadas
+									</label>
+								</div>
+								<button type="button" class="btn btn-primary">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3medio" class="holdExercicio" data-nameRadios="medio3" data-idExercicio="2">
+								<h5>Exercício 3</h5>
+								<p>Qual a função da tag &lt;head&gt;?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio3" value="0">
+										Manter a cabeça no lugar
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio3" value="1">
+										Segurar o body
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio3" value="2">
+										Abrigar conteúdos não-visíveis ao usuário
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio3" value="3">
+										Manter a etiqueta na cabeça
+									</label>
+								</div>
+								<button type="button" class="btn btn-primary">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4medio" class="holdExercicio" data-nameRadios="medio4" data-idExercicio="3">
+								<h5>Exercício 4</h5>
+								<p>Dentro da tag &lt;table&gt;, qual é a diferença entre &lt;thead&gt; e &lt;tbody&gt;?</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio4" value="0">
+										&lt;thead&gt; é a legenda e &lt;tbody&gt; é o corpo da tabela
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio4" value="1">
+										&lt;thead&gt; é o corpo e &lt;tbody&gt; é o cabeçalho tabela
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio4" value="2">
+										&lt;thead&gt; é o cabeçalho e &lt;tbody&gt; é o rodapé tabela
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="medio4" value="3">
+										&lt;thead&gt; é o cabeçalho (quando for necessário) e &lt;tbody&gt; é o corpo da tabela
+									</label>
+								</div>
+								<button type="button" class="btn btn-primary">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5medio" class="holdExercicio" data-idExercicioTexto="2" data-nameText="2">
+								<h5>Exercício 5</h5>
+								<p>Crie um link que deverá abrir em outra janela</p>
+								<p class="small">o link deverá apontar para o Google; o texto do link deverá ser "Google"</p>
+								<textarea class="form-control" rows="3"></textarea><br />
+								<button type="button" class="btn btnText btn-primary">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+						</div>
+					</div>
+				</div>
+				<div id="section3" class="section">
+					<div class="panel panel-success">
+						<div class="panel-heading"><h4>Exercícios HTML - Nível Avançado</h4></div>
+						<div class="panel-body">
+							<div id="ex1hard" class="holdExercicio" data-idExercicioTexto="3" data-nameText="3">
+								<h5>Exercício 1</h5>
+								<p>Definem a estrutura utilizada para criar uma lista não-ordenada, com 5 itens?</p>
+								<p class="small">digite a estrutura básica</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2hard" clas="holdExercicio" data-idExercicioTexto="4" data-nameText="4">
+								<h5>Exercício 2</h5>
+								<p>Defina a estrutura utilizada para criar uma tabela, com 3 linhas e 2 colunas</p>
+								<p class="small">digite apenas a estrutura, sem conteúdos</p>
+								<p class="small">utilize as tags &lt;thead&gt; e &lt;tbody&gt; durante a criação</p>
+								<p class="small">utilize indentação para ficar mais fácil a visualização durante a criação</p>
+								<textarea class="form-control" rows="18"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3hard" class="holdExercicio" data-nameRadios="hard3" data-idExercicio="0">
+								<h5>Exercício 3</h5>
+								<p>Em HTML, qual o conceito de &lt;div&gt;</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard3" value="0">
+										&lt;div&gt; é um container utilizado para agrupar conteúdos dentro da página web
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard3" value="1">
+										&lt;div&gt; é uma lista utilizado para agrupar conteúdos dentro da página web
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard3" value="2">
+										&lt;div&gt; é um separador utilizado para diferenciar os conteúdos dentro da página web
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard3" value="3">
+										&lt;div&gt; é um container utilizado para apagar conteúdos dentro da página web
+									</label>
+								</div>
+								<button type="button" class="btn btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4hard" class="holdExercicio" data-nameRadios="hard4" data-idExercicio="1">
+								<h5>Exercício 4</h5>
+								<p>Em herança:</p>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard4" value="0">
+										O elemento parent é o elemento contido, e o elemento children é o elemento que contém
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard4" value="1">
+										O elemento children é o elemento contido, e o elemento parent é o elemento que contém
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard4" value="2">
+										O elemento sibling é o elemento contido, e o elemento brother é o elemento que contém
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="hard4" value="3">
+										O elemento cousin é o elemento contido, e o elemento grandfather é o elemento que contém
+									</label>
+								</div>
+								<button type="button" class="btn btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5hard" class="holdExercicio" data-idExercicioTexto="5" data-nameText="5">
+								<h5>Exercício 5</h5>
+								<p>Defina a estrutura utilizada para criar um formulário, com os campos de nome, idade e sexo</p>
+								<p class="small">para os campos de sexo, crie radio buttons - 1 para homem e outro para mulher</p>
+								<p class="small">Utilize a tag &lt;label&gt; para colocar o texto correspondente ao input</p>
+								<p class="small">Dentro de cada &lt;input&gt; de texto, defina os atributos <i>type</i>, <i>id</i> e <i>nome</i> - o valor dos atributos <i>id</i> e <i>nome</i> devem ser iguais</p>
+								<p class="small">Dento dos &lt;input&gt; radio, o atributo <i>id</i> é dispensável</p>
+								<textarea class="form-control" rows="15"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex6hard" class="holdExercicio" data-idExercicioTexto="6" data-nameText="6">
+								<h5>Exercício 6</h5>
+								<p>Defina a estrutura utilizada para criar uma página semelhante à esta:</p>
+								<img class="thumbnail" src="img/page1.png" />
+								<p class="small">o endereço da imagem é:
+									<a href="https://familysearch.org/learn/wiki/en/images/0/04/HTML.jpg" target="_blank">
+										https://familysearch.org/learn/wiki/en/images/0/04/HTML.jpg
+									</a>
+								</p>
+								<textarea class="form-control" rows="25"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

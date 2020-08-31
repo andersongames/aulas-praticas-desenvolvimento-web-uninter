@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercícios - Aula 2</title>
+	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<script src="../assets/js/jquery.js"></script>
+	<script src="../assets/js/scripts.js"></script>
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+		  	<div class="navbar-header">
+				<a class="navbar-brand" href="#">Exercícios</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 1 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aula1.html">HTML</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="aula1.html#css">CSS</a></li>
+						</ul>
+					</li>
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 2 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aula2.html">jQuery</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="aula2.html#php">PHP</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Aula 3 <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aula3.html">HTML5 e XHTML</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="aula3.html#sws">Softwares e Frameworks</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a href="aula4.html">Avaliação Geral</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 main">
+				<h1 class="page-header">Exercícios - jQuery</h1>
+				<div class="section">
+					<div class="panel panel-default">
+						<div class="panel-heading"><h4>Exercícios - jQuery</h4></div>
+						<div class="panel-body">
+							<div id="ex1jQ" class="holdExercicio" data-idExercicioTexto="58">
+								<h5>Exercício 1</h5>
+								<p>Agora que já construimos toda a estrutura e formatação do site que estamos desenvolvendo para a <b class="text-primary">Doce e Dança</b>, começaremos a criar as animações visuais. Todas as funções Javascript que iremos criar através da biblioteca jQuery estarão localizadas em um arquivo, <i>scripts.js</i>.</p>
+								<p>Primeiramente, relembrando os conceitos vistos nos slides <u>12-13</u> de jQuery, qual é a tag que utilizamos para ligar a biblioteca jQuery ao nosso projeto?</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2jQ" class="holdExercicio" data-idExercicioTexto="11">
+								<h5>Exercício 2</h5>
+								<p>Ainda utilizando o conceito visto nos slides <u>12-13</u> de jQuery, realize a ligação do nosso arquivo de funções, <i>script.js</i> ao nosso projeto.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3jQ" class="holdExercicio" data-idExercicioTexto="59">
+								<h5>Exercício 3</h5>
+								<p>Com as duas tags acima definidas, agora precisamos incluí-las à nossa estrutura básica. Utilizando o conceito visto nos slides <u>12-13</u> de jQuery, defina a estrutura básica das nossas páginas, incluindo os arquivos de CSS, a biblioteca jQuery e o nosso arquivo de funções</p>
+								<p class="small">Não se esqueça que os arquivos <i>.css</i> estão dentro da pasta css, e os arquivos <i>.js</i> estão dentro da pasta js!</p>
+								<textarea class="form-control" rows="12"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4jQ" class="holdExercicio" data-idExercicioTexto="12">
+								<h5>Exercício 4</h5>
+								<p>Agora, iremos criar os scripts que serão realizados quando a página for carregada. Relembrando o conteúdo visto nos slides <u>14-15</u> e <u>17-18</u> de jQuery, defina a sintaxe para criar as funções dentro do evento de carregamento da página.</p>
+								<textarea class="form-control" rows="6"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5jQ" class="holdExercicio" data-idExercicioTexto="60">
+								<h5>Exercício 5</h5>
+								<p>Para a função acima funcionar corretamente, ela precisa estar dentro de uma tag &lt;script&gt;, geralmente localizada antes da tag de fechamento do &lt;body&gt; - isso é utillizado como uma boa prática para que a página carregue mais rapidamente.</p>
+								<p>Ainda utilizando o conteúdo visto nos slides <u>14-15</u> e <u>17-18</u> de jQuery, defina novamente a estrutura básica da nossa página, colocando antes do final do &lt;body&gt; uma tag &lt;script&gt; com a função jQuery que indica que os scripts serão executados quando a página estiver pronta.</p>
+								<textarea class="form-control" rows="15"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex6jQ" class="holdExercicio" data-idExercicioTexto="61">
+								<h5>Exercício 6</h5>
+								<p>Vamos fazer uma função teste, imprimindo no console do navegador uma variável. Aplicando o conteúdo visto nos slides <u>14-16</u> de jQuery, defina uma variável, <i>teste</i> recebendo a string "Olá mundo, no console do navegador!", e, quando o documento estiver pronto, imprima esta variável utilizando a função <b>console.log</b>.</p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex7jQ" class="holdExercicio" data-idExercicioTexto="62">
+								<h5>Exercício 7</h5>
+								<p>Baseado nos conteúdos apresentados nos slides <u>14-26</u> de jQuery, crie uma função que adicione o texto "Seja bem vindo" ao <i>#header</i> da página, quando esta estiver pronta.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex8jQ" clas="holdExercicio" data-idExercicioTexto="63">
+								<h5>Exercício 8</h5>
+								<p>Quando o usuário clicar no botão para enviar o formulário de contato, devemos mostrar para ele uma mensagem que irá indicar que a mensagem dele foi enviada com sucesso.</p>
+								<p>Aplicando os conceitos vistos nos slides <u>14-26</u> de jQuery, crie uma função para que, quando houver o clique no botão <i>#enviaForm</i>, um alerta seja mostrado com a mensagem<br/><b>"Sua mensagem foi enviada com sucesso, obrigado!"</b>.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex9jQ" clas="holdExercicio" data-idExercicioTexto="64">
+								<h5>Exercício 9</h5>
+								<p>Iremos realizar uma animação na tela de Receitas - quando o usuário clicar na foto da receita, que possui a classe <i>imgReceita</i>, o texto descritivo, <i>descricaoReceita</i>, deverá deslizar de cima para baixo; e quando clicarmos novamente, ele deverá deslizar de baixo para cima.</p>
+								<p>Ainda utilizando os conceitos vistos nos slides <u>14-26</u> de jQuery, crie uma função que irá fazer com que essa animação seja realizada com sucesso.</p>
+								<p class="small">Lembre-se: o método <i>slideDown</i> apenas faz com que ele deslize para baixo, e o método <i>slideUp</i> apenas faz com que ele deslize para cima.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex10jQ" class="holdExercicio" data-idExercicioTexto="65">
+								<h5>Exercício 10</h5>
+								<p>Complementando a animação criada no exercício anterior, quando a imagem for clicada, devemos adicionar uma borda, amarela (#ffff00), para passar o destaque de que é ela que está selecionada.</p>
+								<p>Ainda utilizando os conceitos vistos nos slides <u>14-26</u> de jQuery, complemente a função anterior para fazer com que essa animação seja realizada com sucesso.</p>
+								<p class="small">Quando o objeto alvo da animação é o mesmo que conduz o evento, utilizamos $(this), para não repetir o seletor.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="php" class="section">
+					<div class="panel panel-default">
+						<div class="panel-heading"><h4>Exercícios - PHP</h4></div>
+						<div class="panel-body">
+							<!--
+							conexão banco
+							-
+							-
+							-
+							-
+							-
+							 -->
+							<div id="ex1PHP" class="holdExercicio" data-idExercicioTexto="74">
+								<h5>Exercício 1</h5>
+								<p>Utilizando como base os conceitos vistos nos slides <u>2-7</u> de PHP, declare a estrutura básica das páginas HTML do site que estamos desenvolvendo para a <b class="text-primary">Doce e Dança</b>, criando, dentro da tag &lt;body&gt; os delimitadores que indicam a presença de código PHP.</p>
+								<textarea class="form-control" rows="15"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex2PHP" class="holdExercicio" data-idExercicioTexto="75">
+								<h5>Exercício 2</h5>
+								<p>Utilizando agora os conceitos vistos nos slides <u>6 e 7</u> de PHP, utilize a mesma estrutura básica, porém imprimindo o seguinte texto dentro de uma heading tag de alta importância: "Olá mundo, em PHP com echo"</p>
+								<p class="small">Utilize a função <i>echo</i></p>
+								<textarea class="form-control" rows="15"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex3PHP" class="holdExercicio" data-idExercicioTexto="76">
+								<h5>Exercício 3</h5>
+								<p>Ainda utilizando os mesmos conceitos dos slides <u>6 e 7</u> de PHP, utilize a estrutura básica das páginas, imprimindo agora o seguinte texto dentro de uma heading tag de baixa importância: "Olá mundo, em PHP com print"</p>
+								<p class="small">Utilize a função <i>print</i></p>
+								<textarea class="form-control" rows="15"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex4PHP" class="holdExercicio" data-idExercicioTexto="77">
+								<h5>Exercício 4</h5>
+								<p>Agora, relembrando os conceitos dos slides <u>6-9</u> de PHP, declare um array com os nomes dos bolos, organizados pelo dia de promoção:</p>
+								<div class="row">
+									<div class="col-md-10 col-md-offset-1">
+										<img src="../assets/img/table.png" class="thumbnail img-responsive" />
+									</div>
+								</div>
+								<textarea class="form-control" rows="10"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex5PHP" class="holdExercicio" data-idExercicioTexto="78">
+								<h5>Exercício 5</h5>
+								<p>Aplicando os conceitos visualizados nos slides <u>37-56</u> de PHP, declare uma classe pública, <i>bolo</i>, com os seguintes atributos:</p>
+								<p>nome, sabor, ingredientes (privado), dia_promocao</p>
+								<textarea class="form-control" rows="10"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex6PHP" class="holdExercicio" data-idExercicioTexto="79">
+								<h5>Exercício 6</h5>
+								<p>Ainda utilizando os conceitos de orientação a objeto do slide <u>45</u> de PHP, e utilizando a mesma classe <i>bolo</i>, faça uma requisição do arquivo <i>script.php</i> e imprima os atributos públicos da classe na tela utilizando a função <i>echo</i>.
+								</p>
+								<textarea class="form-control" rows="10"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex7PHP" class="holdExercicio" data-idExercicioTexto="80">
+								<h5>Exercício 7</h5>
+								<p>Utilizando os conceitos vistos nos slides <u>10-15</u> em PHP, declare uma função, <i>teste</i>, passando por referência o parâmetro "bolo = Bolo de chocolate". Utilize a função <i>echo</i> para imprimir o parâmetro <i>bolo</i>.</p>
+								<textarea class="form-control" rows="5"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex8PHP" clas="holdExercicio" data-idExercicioTexto="81">
+								<h5>Exercício 8</h5>
+								<p>Utilizando os conceitos de PHP com banco de dados, vistos nos slides <u>26-36</u> de PHP, insira o comando de conexão com o banco de dados. Os parâmetros:</p>
+								<p class="small">localhost:8080, admin, admin123</p>
+								<textarea class="form-control" rows="3"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex9PHP" clas="holdExercicio" data-idExercicioTexto="82">
+								<h5>Exercício 9</h5>
+								<p>Ainda nos conceitos dos slides <u>26-36</u> de PHP, agora utilizando os delimitadores, armazene a string de conexão em uma variável, <i>conexao</i>. Também inclua o callback "or die", caso a conexão não seja bem sucedida.</p>
+								<p class="small">Defina o texto de retorno como "Não foi possível conectar"</p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+							<hr />
+							<div id="ex10PHP" clas="holdExercicio" data-idExercicioTexto="83">
+								<h5>Exercício 10</h5>
+								<p>Agora, iremos selecionar o banco de dados em que iremos realizar as modificações. Nosso banco é o <i>banco_bolo</i>. Com os mesmos conceitos dos slides <u>26-36</u> de PHP em mãos, escreva o código de conexão com o callback "or die" e selecione o banco indicado.</p>
+								<p class="small">Defina o texto de retorno da seleção do banco como "Não foi possível selecionar o banco"</p>
+								<textarea class="form-control" rows="8"></textarea><br />
+								<button type="button" class="btn btnText btn-success">Enviar</button>
+								<div class="resultado"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

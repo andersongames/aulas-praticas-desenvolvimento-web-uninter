@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.section {
+    padding-top: 60px;
+    margin-top: -50px;
+}
+
+.resultado{
+	display: none;
+	float: right;
+    height: 50px;
+    margin: 0 auto;
+    min-width: 300px;
+    position: relative;
+    text-align: center;
+    top: -8px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.resultado p{
+	margin:15px 0 10px!important;
+}
+.certaRespostaBG{
+	background-color: #00FF00;	
+}
+.respostaErradaBG{
+	background-color: #e3051b;	
+}
+.semRespostaBG{
+    background-color: #FFFF00;
+}
+.noLink{
+    cursor: default;
+    text-align: center;
+    font-weight: bold!important;
+}
+
+img{
+    width:100%;
+}
+button{
+    outline:none!important;
+}
